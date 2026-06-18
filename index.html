@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kishan Bisht | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- Dark Mode Toggle Button Added Here -->
+          <li>
+            <button
+              id="theme-toggle"
+              style="
+                background: none;
+                border: none;
+                cursor: pointer;
+                font-size: 1.1rem;
+                padding: 5px 10px;
+                color: inherit;
+              "
+            >
+              <i id="theme-icon" class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h3 class="hero-greeting">Hello, I'm</h3>
+          <h1 class="hero-name">Kishan Bisht</h1>
+          <h2 class="hero-title">Frontend & Full-Stack Developer</h2>
+          <p class="hero-desc">
+            Web Developer with hands-on experience building full-stack applications using React and Node.js. Proficient in designing responsive frontends with Tailwind CSS and developing scalable backends utilizing Express.js, and MongoDB. 
+            Eager to leverage strong problem-solving skills and a solid foundation in modern web technologies to contribute to impactful software solutions.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <i class="fas fa-arrow-right btn-icon"></i>
+            </a>
+            <a href="Resume_kishan.pdf" target="_blank" class="btn btn-outline">
+              <span>Download Resume</span>
+              <i class="fas fa-download btn-icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glow-blob"></div>
+          <div class="avatar-frame">
+            <i class="fas fa-code-branch visual-icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <!-- <h2>About Me</h2>
+        <div class="about-content">
+          <p>
+            I recently graduated with a degree in [Your Degree/Field] or
+            [Self-Taught Path] and have been immersing myself in modern web
+            technologies. I love turning complex problems into simple,
+            beautiful, and intuitive designs. When I'm not coding, you can find
+            me learning new frameworks or contributing to open-source projects.
+          </p>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fab fa-html5"></i> <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt"></i> <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js"></i> <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-react"></i> <span>React.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-node-js"></i> <span>Node.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-git-alt"></i> <span>Git & GitHub</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-python"></i> <span>Python</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-info">
+              <h3>E-Commerce Dashboard</h3>
+              <p>
+                Developed a fully responsive e-commerce web application 
+                using React, Redux Toolkit, and Tailwind CSS.
+              </p>
+              <p class="tech-stack">
+                <strong>Tech:</strong> React.js , Tailwind CSS , Axios , Redux, React Router DOM
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Kishan1460/PocketCart.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+                <a href="https://pocketcart.vercel.app/" target="_blank"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-info">
+              <h3>Mental Wellness App</h3>
+              <p>
+                Developed a full-stack, responsive mental health web application 
+                utilizing Node.js architecture.
+              </p>
+              <p class="tech-stack">
+                <strong>Tech:</strong> React.js,Node.js,Express.js,MongoDB, Express.js,JWT,Render,GoogleGenAI
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Kishan1460/PeacePath.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+                <a href="https://peace-path-ruddy.vercel.app/" target="_blank"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+           <div class="project-card">
+            <div class="project-info">
+              <h3>AI Document Orchestrator </h3>
+              <p>
+                Built a full-stack document analyzer using React and Node.js 
+                to automate unstructured data extraction.
+              </p>
+              <p class="tech-stack">
+                <strong>Tech:</strong> Tags : React.js , Node.js,Gemini API, n8n, Multer, pdf-parse
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Kishan1460/ai-document-orchestrator.git"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+                <a href="https://ai-document-orchestrator-nu.vercel.app/" target="_blank"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>
+          I am actively looking for entry-level web developer roles or
+          internship opportunities. Let's build something together!
+        </p>
+
+        <div class="contact-links">
+          <!-- Phone Card -->
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <strong>Phone</strong>
+              <span>9205042310</span>
+            </div>
+          </div>
+
+          <!-- Email Card -->
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <span>kishanbisht191@gmail.com</span>
+            </div>
+        </div>
+
+          <!-- LinkedIn Card -->
+          <a
+            href="https://www.linkedin.com/in/kishanbisht191/"
+            target="_blank"
+            class="contact-item"
+          >
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <strong>LinkedIn</strong>
+              <span>Connect with me</span>
+            </div>
+          </a>
+
+          <!-- GitHub Card -->
+          <a
+            href="https://github.com/Kishan1460"
+            target="_blank"
+            class="contact-item"
+          >
+            <i class="fab fa-github"></i>
+            <div>
+              <strong>GitHub</strong>
+              <span>View repositories</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Kishan Bisht. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript For Switching Light/Dark Modes Dynamically -->
+    <script>
+      const toggleButton = document.getElementById("theme-toggle");
+      const themeIcon = document.getElementById("theme-icon");
+
+      toggleButton.addEventListener("click", () => {
+        // 1. Toggle the class on the body
+        document.body.classList.toggle("dark-mode");
+
+        // 2. Change the icon shape dynamically
+        if (document.body.classList.contains("dark-mode")) {
+          themeIcon.classList.remove("fa-moon");
+          themeIcon.classList.add("fa-sun");
+        } else {
+          themeIcon.classList.remove("fa-sun");
+          themeIcon.classList.add("fa-moon");
+        }
+      });
+    </script>
+  </body>
+</html>
